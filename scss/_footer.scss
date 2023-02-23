@@ -1,0 +1,39 @@
+/* Footer */
+footer {
+	min-height: 100px;
+}
+.pie {
+	background-color: $background-color_1;
+}
+.pie-texto {
+	font-size: 1.3rem;
+	padding: 10px;
+	margin-bottom: 5px;
+}
+.iconos-redes {
+	a {
+		width: 40px;
+		height: 40px;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 2px;
+		margin: 10px;
+		border: 2px solid white;
+		border-radius: 50%;
+		transition: 0.2s ease-in;
+		text-decoration: none;
+		&:hover {
+			background-color: $background-color_4;
+			border: 2px solid white;
+		}
+	}
+	i {
+		color: $color_1;
+		font-size: 1.5rem;
+		transition: all 0.2s ease-in;
+		&:hover {
+			color: $color_3;
+		}
+	}
+}

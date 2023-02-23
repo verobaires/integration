@@ -1,0 +1,178 @@
+@import "https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Neucha&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Neucha&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Neucha&display=swap";
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 56px;
+}
+
+h1 {
+  font-family: "Fredoka One", sans-serif;
+}
+
+h2 {
+  font-family: "Fredoka One", sans-serif;
+}
+
+h3 {
+  font-family: "Fredoka One", sans-serif;
+}
+
+h4 {
+  font-family: "Fredoka One", sans-serif;
+}
+
+h5 {
+  font-family: "Fredoka One", sans-serif;
+}
+
+h6 {
+  font-family: "Fredoka One", sans-serif;
+}
+
+p {
+  font-family: "Neucha", sans-serif;
+}
+
+.navbar {
+  background-color: rgb(14, 80, 79);
+}
+.navbar .navbar-brand {
+  font-family: "Fredoka One", sans-serif;
+}
+
+.btn {
+  font-family: "Neucha", sans-serif;
+  background-color: rgb(250, 202, 117);
+  border: none;
+}
+.btn:hover {
+  background-color: black;
+  color: white;
+  border: none;
+  transition: 0.5s;
+}
+
+li a {
+  font-family: "Neucha", sans-serif;
+}
+
+.titulos {
+  color: rgb(14, 80, 79);
+}
+
+/* Hero Pagina de Inicio*/
+.hero {
+  background-image: url(../images/sunset-4603355_1920.jpg);
+  height: 91vh;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero__textos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  height: 100%;
+}
+
+/* Seccion de tienda */
+.tienda {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(14, 80, 79);
+}
+
+.tienda__contenido {
+  width: 80%;
+  height: 60%;
+  background-image: url(../images/tienda.jpg);
+  background-position: center;
+  background-size: cover;
+  overflow: hidden;
+}
+
+.tienda__textos {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+/* Hero Pagina Nosotros*/
+.secondaryHero {
+  height: 91vh;
+  background: rgb(250, 202, 117);
+  background: linear-gradient(180deg, rgb(250, 202, 117) 0%, rgba(250, 202, 117, 0.6867121849) 61%, rgba(250, 202, 117, 0.3617822129) 100%);
+}
+
+.secondaryHero__contenedor {
+  height: 100%;
+}
+
+.secondaryHero__text {
+  color: rgb(14, 80, 79);
+}
+
+.nosotros {
+  background-color: rgb(14, 80, 79);
+}
+
+/* Footer */
+footer {
+  min-height: 100px;
+}
+
+.pie {
+  background-color: rgb(14, 80, 79);
+}
+
+.pie-texto {
+  font-size: 1.3rem;
+  padding: 10px;
+  margin-bottom: 5px;
+}
+
+.iconos-redes a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: 0.2s ease-in;
+  text-decoration: none;
+}
+.iconos-redes a:hover {
+  background-color: white;
+  border: 2px solid white;
+}
+.iconos-redes i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+.iconos-redes i:hover {
+  color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

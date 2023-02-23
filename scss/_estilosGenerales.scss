@@ -1,0 +1,65 @@
+//Estilos Generales /* estilos generales */
+@import "variables";
+@import "https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap";
+@import "https://fonts.googleapis.com/css2?family=Neucha&display=swap";
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body {
+	margin-top: 56px;
+}
+
+h1 {
+	font-family: $font-family_1;
+}
+h2 {
+	font-family: $font-family_1;
+}
+h3 {
+	font-family: $font-family_1;
+}
+h4 {
+	font-family: $font-family_1;
+}
+h5 {
+	font-family: $font-family_1;
+}
+h6 {
+	font-family: $font-family_1;
+}
+p {
+	font-family: $font-family_2;
+}
+
+
+.navbar {
+	background-color: $background-color_1;
+
+.navbar-brand {
+	font-family: $font-family_1;
+}
+}
+
+.btn {
+	font-family: $font-family_2;
+	background-color: $background-color_2;
+	border: none;
+	&:hover {
+		background-color: $background-color_3;
+		color: $color_1;
+		border: none;
+		transition: .5s;
+	}
+}
+li {
+	a {
+		font-family: $font-family_2;
+	}
+}
+.titulos {
+	color: $color_2;
+}

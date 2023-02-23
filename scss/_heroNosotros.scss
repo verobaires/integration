@@ -1,0 +1,15 @@
+/* Hero Pagina Nosotros*/
+.secondaryHero {
+	height: 91vh;
+	background: rgb(250,202,117);
+	background: linear-gradient(180deg, rgba(250,202,117,1) 0%, rgba(250,202,117,0.6867121848739496) 61%, rgba(250,202,117,0.3617822128851541) 100%);
+}
+.secondaryHero__contenedor {
+	height: 100%;
+}
+.secondaryHero__text {
+	color: $color_2;
+}
+.nosotros {
+	background-color: $background-color_1;
+}
